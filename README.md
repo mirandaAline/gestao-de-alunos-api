@@ -101,7 +101,8 @@ ambiente `PORT`).
 
 Por padrão, a API se conecta a um MongoDB local em
 `mongodb://127.0.0.1:27017/gestao-de-alunos`. Para usar outra instância (ex.: MongoDB Atlas ou um
-container), defina a variável de ambiente `MONGODB_URI` antes de subir o servidor:
+container), crie um arquivo `.env` a partir do `.env.example` ou defina a variável de ambiente
+`MONGODB_URI` antes de subir o servidor:
 
 ```bash
 MONGODB_URI="mongodb://usuario:senha@host:27017/nome-do-banco" npm start

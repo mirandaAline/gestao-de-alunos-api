@@ -1,0 +1,36 @@
+[
+  {
+    "admin": {
+      "email": "admin@escola.com",
+      "senha": "admin123"
+    },
+    "aluno": {
+      "nome": "Marina Costa",
+      "email": "marina.costa.e2e@example.com",
+      "matricula": "2024991",
+      "senha": "senha123"
+    },
+    "disciplinaId": "disciplina-matematica",
+    "trabalho": {
+      "titulo": "Lista de Exercícios Data-Driven",
+      "descricao": "Entrega automatizada pelo teste e2e."
+    }
+  },
+  {
+    "admin": {
+      "email": "admin@escola.com",
+      "senha": "admin123"
+    },
+    "aluno": {
+      "nome": "Rafael Almeida",
+      "email": "rafael.almeida.e2e@example.com",
+      "matricula": "2024992",
+      "senha": "senha456"
+    },
+    "disciplinaId": "disciplina-programacao-web",
+    "trabalho": {
+      "titulo": "Landing Page Data-Driven",
+      "descricao": "Entrega de trabalho cadastrada via SuperTest."
+    }
+  }
+]
